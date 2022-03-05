@@ -1,0 +1,11 @@
+body {
+  margin: 0 3rem;
+}
+
+.flex {
+  display: flex;
+}
+
+img {
+  margin: 3rem;
+}
