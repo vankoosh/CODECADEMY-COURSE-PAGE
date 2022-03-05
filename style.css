@@ -1,11 +1,16 @@
 body {
-  margin: 0 3rem;
+  margin: 0 1rem;
 }
 
 .flex {
   display: flex;
+  align-items: flex-start;
 }
 
 img {
-  margin: 3rem;
+  margin: 2rem 1rem;
+}
+
+.loops img {
+  flex: 1 1;
 }
