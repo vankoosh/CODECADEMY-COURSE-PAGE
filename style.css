@@ -1,16 +1,20 @@
-body {
-  margin: 0 1rem;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.flex {
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.loops {
   display: flex;
   align-items: flex-start;
-}
 
-img {
-  margin: 2rem 1rem;
 }
 
 .loops img {
-  flex: 1 1;
+  max-width: 20%;
 }
