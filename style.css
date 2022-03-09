@@ -4,8 +4,15 @@
   padding: 0;
 }
 
+a:link,
+a:visited,
+a:hover, 
+a:active {
+  color: #000;
+}
+
 .container {
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
 }
 
@@ -14,6 +21,8 @@
   top: 0rem;
   display: flex;
   background-color: #fff;
+  font-family: 'Fredoka', sans-serif;
+  color: #000;
 }
 
 .links div {
@@ -45,7 +54,7 @@
 
 .iterators img,
 .functions img {
-  max-width: 16%;
+  max-width: 16.6%;
 }
 
 .loops img,
